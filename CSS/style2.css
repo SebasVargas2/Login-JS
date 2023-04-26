@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(189, 187, 177);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    background-color: rgb(255, 247, 240);
+    color: rgb(255, 166, 2);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 166, 2);
+}
+
+nav>div:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.contenedor{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.images_carrusel {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel {
+    width: 500px;
+    height: 300px;
+}
+
+.parrafo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 80px;
+}
+
+section>hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tarjeta {
+    width: 15%;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(218, 162, 42);
+    box-shadow: 2px 2px 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+.tarjeta>h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    height: 15% ;
+}
+
+.tarjeta>h3 h3{
+    width: 100%;
+    height: 100%;
+}
+
+.tar_img {
+    width: 70%;
+    margin: 10px auto;
+    height: 35%;
+    border-radius: 10px;
+}
+
+.tar_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.tar_description {
+    text-align: center;
+    padding: 10px;
+    width: 95%;
+    height: 20%;
+    overflow: scroll;
+    font-size: 14px;
+
+}
+
+
+
+.tar_price {
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.boton .compra {
+    background-color: green;
+    color: white;
+}
+
+.boton .cancela {
+    background-color: red;
+    color: white;
+}
+
+.tar_compra {
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.tar_compra:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    transition: 0.3s;
+    font-size: 22px;
+}
+
+.tarjetass{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.ventana_modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    width: 20%;
+    height: 60%;
+    background-color: rgb(189, 187, 177);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(218, 162, 42);
+}
+
+.modal_header {
+    position: relative;
+}
+
+.modal_close {
+    position: absolute;
+    cursor: pointer;
+    font-size: 22px;
+    right: 0;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal_close:hover {
+    cursor: pointer;
+    color: rgb(218, 162, 42)ge;
+}
+
+.modal_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_body .tarjeta {
+    width: 80%;
+    height: 450px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
