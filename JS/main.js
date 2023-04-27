@@ -84,9 +84,13 @@ async function traer(){
         else if (evento.target.classList.contains('compra')){
             if (confirm(`Seguro que desea comprar ${seleccionado[0].title}`)==true){
                 localStorage.setItem('producto',JSON.stringify(seleccionado))
+                location.assign('../HTML/index3.html')
             }
         }
     })
+
+
+
 }
 
 

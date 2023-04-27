@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-image: url(assets/blob-scene-haikei.png);
+    background-image: url(../assets/blob-scene-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,4 +123,6 @@ a {
     width: 60%;
     height: 30px;
     margin: auto;
+    text-align: center;
+    color: rgb(230, 208, 17);
 }
