@@ -10,7 +10,10 @@ html, body {
 }
 
 body {
-    background-color: rgb(189, 187, 177);
+    background-image: url(../assets/fondo1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -90,3 +93,4 @@ button:hover{
     transition: 0.3s;
     font-size: 22px;
 }
+

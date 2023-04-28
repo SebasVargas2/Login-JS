@@ -5,9 +5,9 @@ const boton = document.getElementById('')
 
 let cont=0
 let fotos = [
-    "../assets/image1.png",
     "../assets/image2.webp",
-    "../assets/image3.jpg"
+    "../assets/image3.jpg",
+    "../assets/image1.avif" 
 ]
 
 
